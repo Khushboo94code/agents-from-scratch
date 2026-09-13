@@ -1,0 +1,24 @@
+# secrets — never commit
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# virtualenvs (any name)
+env/
+.venv/
+venv/
+ENV/
+
+# os
+.DS_Store
+
+# internal brand assets (not part of the public code reference)
+branding/
+
+# internal production scripts
+EPISODE-*-SCRIPT.md
